@@ -140,7 +140,7 @@ a {
 }
 
 .wrapper {
-	background-color: #d4d4d8;
+	background-color: #e2e8f0;
 	width: 100vw;
 	height: 100vh;
 	margin: 0 auto;
@@ -160,7 +160,7 @@ a {
 #header,
 #sidebar,
 #card-container {
-	padding: 25px;
+	padding: 15px;
 }
 #header {
 	background-color: white;
