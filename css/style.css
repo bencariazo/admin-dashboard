@@ -153,6 +153,66 @@ a {
 	grid-template-rows: repeat(4, 1fr);
 }
 
+.main {
+	display: flex;
+	gap: rem;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+}
+
+.upper-row,
+.lower-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex: 1;
+}
+
+.upper-row > * {
+	display: inline-flex;
+	align-items: center;
+}
+
+input {
+	background-color: #e2e8f0;
+	border-radius: 20px;
+	border-style: none;
+	width: 700px;
+	height: 1.5em;
+}
+
+.profile-icon {
+	height: 80px;
+	max-width: 80px;
+	border: 1px solid gray;
+	border-radius: 50%;
+}
+
+.left-lower {
+	display: flex;
+	flex: 1.5;
+	gap: 2rem;
+	width: 100%;
+	align-items: center;
+}
+
+.left-lower > * {
+	flex: 1;
+}
+
+.action-buttons {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+	gap: 2rem;
+}
+
+.right-lower {
+	display: flex;
+	flex: 1;
+}
+
 .svg {
 	filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%)
 		hue-rotate(221deg) brightness(103%) contrast(107%);
