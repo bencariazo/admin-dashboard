@@ -183,9 +183,16 @@ input {
 	height: 1.5em;
 }
 
-.profile-icon {
-	height: 80px;
-	max-width: 80px;
+.profile-icon-upper {
+	height: 1.5em;
+	width: 1.5em;
+	border: 1px solid gray;
+	border-radius: 50%;
+	justify-content: end;
+}
+.profile-icon-lower {
+	height: 60px;
+	max-width: 60px;
 	border: 1px solid gray;
 	border-radius: 50%;
 }
