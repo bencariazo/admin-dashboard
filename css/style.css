@@ -141,9 +141,10 @@ a {
 
 .wrapper {
 	background-color: #e2e8f0;
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 	margin: 0 auto;
+	color: black;
 }
 
 .grid-container {
